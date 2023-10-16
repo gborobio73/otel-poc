@@ -1,0 +1,12 @@
+apiVersion: 1
+
+datasources:
+  - name: OTel-example
+    type: prometheus
+    url: http://prometheus:9090
+    editable: true
+
+  - name: OTel-example-tempo
+    type: tempo
+    url: http://tempo:3232
+    editable: true
